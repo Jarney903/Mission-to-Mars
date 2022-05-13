@@ -35,13 +35,9 @@ def scrape():
 
 ## The final bit of code we need for Flask is to tell it to run
 if __name__ == "__main__":
-   app.run()
+   app.run(debug=True) # 
 ## Start by using the command line to navigate to your project folder.
-# Open Terminal on "Mission to Mars" Folder
-# Type - "export FLASK_APP=app.py" and press enter
-# Type - "flask run" and press enter
-# Then run your code: flask run
-# You will need to navigate to the temp route in order to see the output of your code.
+## 
 
 
 
